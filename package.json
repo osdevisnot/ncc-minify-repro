@@ -1,0 +1,14 @@
+{
+  "name": "ncc-minify-repro",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Abhishek Shende <osdevisnot@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncc build --minify index.js -o dist"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "0.20.5",
+    "rollup-plugin-commonjs": "10.1.0"
+  }
+}
